@@ -27,6 +27,41 @@ public class WrapperClass {
         System.out.println("min = " + min);
 
 
+        //Or:Int data type nin min ,byte in max degerlerinin toplami
+
+        int intmin = Integer.MIN_VALUE;
+        byte bytemax=Byte.MAX_VALUE;
+        System.out.println(intmin+bytemax);
+
+
+
+
+        //OR:Primitive int i wrap int e cevir
+
+        int a = 12;
+        Integer b= a;
+        // bu isleme Autoboxing deniyor
+
+        //OR:Wrapper Byte i prim byte cevir
+
+        Byte wrapperByte = 127;
+        byte byteByte= wrapperByte;
+        //bnuna da Unboxing denir
+
+        //OR:Prim bir char i Wrapper Character yap
+
+        char z= 'B';
+        Character zWrapper = z;
+
+        //OR:Wrapper Booleani prim boolean yap
+
+        Boolean isHungryW = true ;
+        boolean isHungry= isHungryW;
+
+
+
+
+
     }
 
 
