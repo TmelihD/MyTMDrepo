@@ -4,14 +4,14 @@ public class WrapperClass {
     public static void main(String[] args) {
             /*:  primitives...  Wrapper classlar prim leri non yapmak icin,method barindirmasi icin
 
-    char     Character
-    boolean  Boolean
-    byte     Byte
+    char      Character                    // Primitiveleri non-primitive yapar,Fazladan alan kpliyoruz
+    boolean   Boolean
+    byte      Byte
     short     Short
     int       Integer
-    long       Long
-    float      Float
-    double     Double
+    long      Long
+    float     Float
+    double    Double
 
   */
 
@@ -19,6 +19,8 @@ public class WrapperClass {
         Integer m = 5;
         // n.
         //m.     dene...
+
+
 
    //short data typenin min ve max degerini code ile bul.
         short max= Short.MAX_VALUE;
