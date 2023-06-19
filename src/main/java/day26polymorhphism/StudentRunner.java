@@ -7,5 +7,8 @@ public class StudentRunner {
         System.out.println(s1.getNotOrt());//3.53
         System.out.println(s1.isSuccesful());//false
 
+        s1.setNotOrt(4.99);
+        System.out.println(s1.getNotOrt());
+
     }
 }
